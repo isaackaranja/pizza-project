@@ -1,0 +1,165 @@
+[
+{
+  "model": "pizza.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$gpSFjjU8BJExKeIKfpJMip$ToLPj5ujf/UocaCRePw7c0UfxDaPs2wG24ZgjX+73Ys=",
+    "last_login": "2021-07-24T12:50:21.825Z",
+    "is_superuser": true,
+    "username": "zack",
+    "first_name": null,
+    "last_name": null,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-07-18T10:57:19.129Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 1,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "Cheese",
+    "small_price": "13.25",
+    "large_price": "18.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 2,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "1 topping",
+    "small_price": "14.25",
+    "large_price": "20.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 3,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "2 toppings",
+    "small_price": "15.75",
+    "large_price": "22.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 4,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "3 toppings",
+    "small_price": "16.75",
+    "large_price": "24.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 5,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "Special",
+    "small_price": "18.30",
+    "large_price": "26.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 1,
+  "fields": {
+    "name": "Pepperoni"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 2,
+  "fields": {
+    "name": "Sausage"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 3,
+  "fields": {
+    "name": "Mushrooms"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 4,
+  "fields": {
+    "name": "Onions"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 5,
+  "fields": {
+    "name": "Ham"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 6,
+  "fields": {
+    "name": "Canadian Bacon"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 7,
+  "fields": {
+    "name": "Pineapple"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 8,
+  "fields": {
+    "name": "Eggplant"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 9,
+  "fields": {
+    "name": "Tomato & Basil"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 10,
+  "fields": {
+    "name": "Green Peppers"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 11,
+  "fields": {
+    "name": "Hamburger"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 12,
+  "fields": {
+    "name": "Spinach"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 13,
+  "fields": {
+    "name": "Artichoke"
+  }
+}
+]

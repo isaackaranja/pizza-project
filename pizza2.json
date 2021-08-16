@@ -1,0 +1,269 @@
+[
+{
+  "model": "pizza.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$1Ccl71PMaiLzBUcQl8WP9g$sYa3bWjNT+2pbdLPY11YhzWAEHyokAXE57zvq6OtSIQ=",
+    "last_login": "2021-07-31T00:22:07.158Z",
+    "is_superuser": true,
+    "username": "zack",
+    "first_name": null,
+    "last_name": null,
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-07-26T15:44:38.450Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.myuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$2vFwyUONcMvJPwyVtF6IPE$kBaZhTlbY1EleTEQrrQH8n0QmmFBkJU95q2/l6TR718=",
+    "last_login": "2021-07-27T10:55:52.876Z",
+    "is_superuser": false,
+    "username": "kevin",
+    "first_name": "big",
+    "last_name": "small",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-27T10:55:51.236Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.myuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$9X8cfTisaxPPq0AdfZem6T$8x82hVTCHnWHbZknnWG9buzLImVSw5El10RMfQVM55s=",
+    "last_login": "2021-07-27T10:56:56.061Z",
+    "is_superuser": false,
+    "username": "jamo",
+    "first_name": "live",
+    "last_name": "ur",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-27T10:56:43.013Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.myuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$uYJGc9LRw5c1IiseXU3UIG$zzJAu6/nagKz0upN95OrPUYxby3+1ASUePE4RtWlbDk=",
+    "last_login": "2021-07-27T11:29:25.124Z",
+    "is_superuser": false,
+    "username": "jimi",
+    "first_name": "jimi",
+    "last_name": "jimi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-27T11:15:29.642Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.myuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$A3QW70M7L4M3J7wdXZ9u0p$mkjjjqcznTvh7iQtkT2GApeMKqmz6FXnqkQ4C3T/Oqw=",
+    "last_login": "2021-07-29T18:04:15.354Z",
+    "is_superuser": false,
+    "username": "lucky",
+    "first_name": "lucky",
+    "last_name": "lucky",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-29T18:03:44.484Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 1,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "Cheese",
+    "small_price": "13.25",
+    "large_price": "18.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 2,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "1 topping",
+    "small_price": "14.25",
+    "large_price": "20.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 3,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "2 toppings",
+    "small_price": "15.75",
+    "large_price": "22.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 4,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "3 toppings",
+    "small_price": "16.75",
+    "large_price": "24.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.pizza",
+  "pk": 5,
+  "fields": {
+    "pizza_category": "Regular_pizza",
+    "name": "Special",
+    "small_price": "18.30",
+    "large_price": "26.75",
+    "num_toppings": 0
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 1,
+  "fields": {
+    "name": "Pepperoni"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 2,
+  "fields": {
+    "name": "Sausage"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 3,
+  "fields": {
+    "name": "Mushrooms"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 4,
+  "fields": {
+    "name": "Onions"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 5,
+  "fields": {
+    "name": "Ham"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 6,
+  "fields": {
+    "name": "Canadian Bacon"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 7,
+  "fields": {
+    "name": "Pineapple"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 8,
+  "fields": {
+    "name": "Eggplant"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 9,
+  "fields": {
+    "name": "Tomato & Basil"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 10,
+  "fields": {
+    "name": "Green Peppers"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 11,
+  "fields": {
+    "name": "Hamburger"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 12,
+  "fields": {
+    "name": "Spinach"
+  }
+},
+{
+  "model": "pizza.toppings",
+  "pk": 13,
+  "fields": {
+    "name": "Artichoke"
+  }
+},
+{
+  "model": "pizza.cart",
+  "pk": 1,
+  "fields": {
+    "ref_code": "",
+    "user": 1,
+    "total_price": "39.50"
+  }
+},
+{
+  "model": "pizza.cart",
+  "pk": 2,
+  "fields": {
+    "ref_code": "",
+    "user": 3,
+    "total_price": "0.00"
+  }
+},
+{
+  "model": "pizza.cart",
+  "pk": 3,
+  "fields": {
+    "ref_code": "",
+    "user": 4,
+    "total_price": "0.00"
+  }
+},
+{
+  "model": "pizza.cart",
+  "pk": 4,
+  "fields": {
+    "ref_code": "",
+    "user": 5,
+    "total_price": "0.00"
+  }
+}
+]
